@@ -1,15 +1,24 @@
 function createManagerCard(manager){
   return `
   <h2>${manager.name} </h2>
+  <h2>${manager.id}</h2>
+  <h2>${manager.email}</h2>
+  <h2>${manager.officeNumber}</h2>
   `
 }
 function createEngineerCard(engineer){
   return `
   <h2>${engineer.name} </h2>
+  <h2>${engineer.name} </h2>
+  <h2>${engineer.name} </h2>
+  <h2>${engineer.name} </h2>
   `
 }
 function createInternCard(intern){
   return `
+  <h2>${intern.name} </h2>
+  <h2>${intern.name} </h2>
+  <h2>${intern.name} </h2>
   <h2>${intern.name} </h2>
   `
 }
