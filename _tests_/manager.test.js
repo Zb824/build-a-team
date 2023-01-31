@@ -10,7 +10,7 @@ test ("test manager values" ,()=>{
 
   expect(manager.getEmail()).toBe("mary@email.com")
 
-  expect(manager.getOfficNumber()).toBe("55")
+  expect(manager.getOfficeNumber()).toBe("55")
   
   expect(manager.getRole()).toBe("Manager")
 
